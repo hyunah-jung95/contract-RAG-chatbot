@@ -19,7 +19,7 @@ Users can securely and privately upload and initiate their personalized contract
 ## 2.	Querying via Chatbot
   - Users ask questions through the chatbot.
   - The chatbot AI generates answers by searching the stored contracts using the Google Search App.
-  - The response includes: The answer, Grounding verification, Metadata from referenced contracts (e.g., title, storage address, content excerpts).
+  - The response includes: The answer, Grounding verification, Metadata from referenced contracts.
 
 ## 3. Conversation Logging
   - Conversations are saved as sessions to improve answer accuracy and chatbot performance over time.
