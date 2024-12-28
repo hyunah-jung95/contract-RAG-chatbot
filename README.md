@@ -26,10 +26,10 @@ Users can securely and privately upload and initiate their personalized contract
 
 # Key Features
   - **97% Accuracy**: Optimized for high precision in contract-related queries.
-  - **Specialized for Contracts**: Tailored for contract analysis and database searching.
-  - **Scalable**: Supports additional documents, new users, and custom bucket creation.
-  - **Secure Data Pipeline**: Fully encapsulated within the Google Cloud Platform (GCP).
-  - **Cross-Cloud Compatibility**: Designed with future migration to other platforms (Azure, AWS) and compatibility with other generative AI models(ChatGPT).
+  - **Specialization**: Tailored for contract analysis and database searching.
+  - **Scalability**: Supports additional documents, new users, and custom bucket creation.
+  - **Security**: Fully encapsulated within the Google Cloud Platform (GCP).
+  - **Compatibility**: Designed with future migration to other platforms (Azure, AWS) and compatibility with other generative AI models(ChatGPT).
 
 # My contribution
 - _Designed_ the system architecture, collaborating with the PM to align with client business requirements.
