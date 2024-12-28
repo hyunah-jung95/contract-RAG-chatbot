@@ -39,3 +39,7 @@ Users can securely and privately upload and initiate their personalized contract
 # Technical Stack
 - Programming: Python, streamlit
 - Cloud Platform: Google Cloud Platform(GCP)
+
+# License
+- This project is worked with jigo.ai
+- The license of app is owned by jigo.ai
