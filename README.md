@@ -11,17 +11,17 @@ Users can securely and privately upload and initiate their personalized contract
 
 # Workflow
 ![GCP-Kodebox-diagram](https://github.com/user-attachments/assets/8e67ed66-3433-4545-b341-0289b364ae01)
-1.	Uploading Contracts
+## 1.	Uploading Contracts
   - Users upload PDF contracts via the app.
   - The uploaded PDFs are stored in Google Storage (GS).
   - A Google Cloud Function is triggered when the GS bucket is updated, importing the files into a datastore integrated with the Google Search App.
 
-2.	Querying via Chatbot
+## 2.	Querying via Chatbot
   - Users ask questions through the chatbot.
   - The chatbot AI generates answers by searching the stored contracts using the Google Search App.
   - The response includes: The answer, Grounding verification, Metadata from referenced contracts (e.g., title, storage address, content excerpts).
 
-3.	Conversation Logging
+## 3. Conversation Logging
   - Conversations are saved as sessions to improve answer accuracy and chatbot performance over time.
 
 # Key Features
