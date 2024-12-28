@@ -1,31 +1,41 @@
 # Contract RAG Chatbot
-This app is built for users who are dealing with a lot of contracts by finding accurate information searching through contract DB.<br>
-Not only answering to user's questions, it also offers specific references of contracts with groundness cheking by RAG architecture.<br>
-User can upload and initiate personal contracts DB privately and securely via this app.<br>
+This application is designed for users _managing extensive contract collections_,<br>
+enabling them to efficiently find accurate information through a searchable contracts database.
+
+Not only does it provide answers to user queries,<br> 
+but it also references specific contract sections with grounding verification using _Retrieval-Augmented Generation (RAG) architecture._
+
+Users can securely and privately upload and initiate their personalized contract databases via this app.
 
 [👉 Go to Live APP](https://prototype-787703115620.us-central1.run.app)
 
 # Workflow
 ![GCP-Kodebox-diagram](https://github.com/user-attachments/assets/8e67ed66-3433-4545-b341-0289b364ae01)
-1. User uploads PDF contracts via the app.
-  - PDF files are stored in Google Storage(GS).
-  - When GS bucket is updated, cloud function is triggered to import the files into data store integrated with Google Search App.
-2. User asks questions with chatbot.
-  - Chatbot AI generates the answer by searching the stored contracts with Google Search App.
-  - Answer contains answer, groundness check, metadata of referenced contracts(title, store address, contents, etc.)
-3. The conversations are saved as a session to enhance the performance of the answering.
+1.	Uploading Contracts
+  - Users upload PDF contracts via the app.
+  - The uploaded PDFs are stored in Google Storage (GS).
+  - A Google Cloud Function is triggered when the GS bucket is updated, importing the files into a datastore integrated with the Google Search App.
 
-# Speciality
-- 97% accurancy
-- specified for the contracts analysis and searching.
-- scalable for adding documents, new users, creating new buckets.
-- secrued data pipeline capsulated in GCP(Google Cloud Platform).
-- Considered migration to other cloud platform(Azure, AWS) and other Gernerativa AI(ChatGPT, etc.)
+2.	Querying via Chatbot
+  - Users ask questions through the chatbot.
+  - The chatbot AI generates answers by searching the stored contracts using the Google Search App.
+  - The response includes: The answer, Grounding verification, Metadata from referenced contracts (e.g., title, storage address, content excerpts).
+
+3.	Conversation Logging
+  - Conversations are saved as sessions to improve answer accuracy and chatbot performance over time.
+
+# Key Features
+  - **97% Accuracy**: Optimized for high precision in contract-related queries.
+  - **Specialized for Contracts**: Tailored for contract analysis and database searching.
+  - **Scalable**: Supports additional documents, new users, and custom bucket creation.
+  - **Secure Data Pipeline**: Fully encapsulated within the Google Cloud Platform (GCP).
+  - **Cross-Cloud Compatibility**: Designed with future migration to other platforms (Azure, AWS) and compatibility with other generative AI models(ChatGPT).
 
 # My contribution
-- Designed architecture communicating with PM from beginning to meet client's business needs.
-- Developed both backend logic with python and frontend UI with streamlit.
-- Deployed and monitored the app using CI/CD pipelines in GCP.
+- _Designed_ the system architecture, collaborating with the PM to align with client business requirements.
+- _Developed_ backend logic using Python and created a user-friendly frontend UI with Streamlit.
+- _Deployed_ the app using CI/CD pipelines on GCP, ensuring reliability and scalability.
 
 # Technical Stack
-- Python, streamlit, GCP
+- Programming: Python, streamlit
+- Cloud Platform: Google Cloud Platform(GCP)
