@@ -50,3 +50,5 @@ Users can securely and privately upload and initiate their personalized contract
 # License
 - This project is worked with jigo.ai
 - The license of app is owned by jigo.ai
+
+### [Tour other projects...](https://github.com/hyunah-jung95#projects)
