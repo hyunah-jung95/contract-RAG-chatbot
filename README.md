@@ -12,6 +12,8 @@ Users can securely and privately upload and initiate their personalized contract
 
 # Workflow
 ![GCP-Kodebox-diagram](https://github.com/user-attachments/assets/8e67ed66-3433-4545-b341-0289b364ae01)
+![‎GCP-Kodebox-diagram-ppt-api ‎001](https://github.com/user-attachments/assets/6ee98ac5-5ea9-4c9d-8816-f34f04a7bfc4)
+
 ### 1.	Uploading Contracts
   - Users upload PDF contracts via the app.
   - The uploaded PDFs are stored in Google Storage (GS).
